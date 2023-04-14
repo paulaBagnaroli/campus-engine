@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/apps.css">
+    <script src="/js/db.js" defer></script>
+    <script src="/js/dinamic.js" defer></script>
+    <script src="./js/tienda.js" defer></script>
+
+    <title>CampersEngine</title>
+
+</head>
+
+<body>
+    <nav>
+        <section class="container1">
+            <img id="logo" src="./images/logoWhite.png" alt="logo campus">
+            <a class="alink" href="#inicio" id="btn-inicio">Inicio</a>
+            <a class="alink" href="#servicios" id="btn-servicios">Servicios</a>
+            <a class="alink" href="#">Soporte</a>
+            <a class="alink" id="logo-carrito" style="display:none"> <img src="./images/cart-regular-24.png"></a>
+        </section>
+    </nav>
+
+    <div class="comienzo">
+        <section class="homepage" id="inicio">
+            <div class="first-message">
+                <h1> Bienvenid@ Camper</h1>
+                <p>Campus Programmers Land</p>
+                <h3>Acerca de la página</h3>
+                <p> Esta es una pagina informativa acerca de nuestros servicios ofrecidos por nuestros queridos campers
+                </p>
+            </div>
+        </section>
+
+        <section class="contactanos">
+            <img src="./images/Space astronaut cartoon.png">
+
+            <div class="contact-info-container">
+                <p class="contact-info">Contáctanos!</p>
+                <div class="social"><img src="/images/whatsapp.svg"><a href="">+573118807659</a></div>
+                <div class="social"><img src="/images/twitter.svg"><a>@Campuslatam</a></div>
+                <div class="social"><img src="/images/facebookF.svg"><a
+                        href="https://discord.com/channels/1083120674379415692/1096234838761156680/1096418875106672710">@Campusland</a>
+                </div>
+                <div class="social"><img src="/images/instagram.svg"><a
+                        href="https://www.instagram.com/campuslands/">@campusdevelopers</a>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <section class="servicios" id="servicios" style="display:none">
+        <div class="fist-message">
+            <h1>Servicios</h1>
+            <a href="#cafeteria-virtual" id="btn-cafeteria"> Cafeteria virtual</a>
+        </div>
+        <div class="card-container" id="card-container">
+
+        </div>
+    </section>
+
+
+    <section class="cafeteria-virtual" id="cafeteria-virtual" style="display:none">
+        <div class="contenedor-productos">
+            <div class="producto">
+                <img href="./images/papasmargarita.jpg">
+                <h3>Papas</h3>
+                <p>$2000</p>
+                <button class="sumar-carro" id="papas">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img href="./images/papasmargarita.jpg">
+                <h3>Pasteles</h3>
+                <p>$2300</p>
+                <button class="sumar-carro" id="pasteles">Añadir al carrito</button>
+            </div>
+
+            <div class="producto">
+                <img href="./images/papasmargarita.jpg">
+                <h3>Café</h3>
+                <p>$800</p>
+                <button class="sumar-carro" id="cafe" >Añadir al carrito</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
